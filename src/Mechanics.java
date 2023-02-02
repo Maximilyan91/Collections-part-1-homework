@@ -14,7 +14,12 @@ public class Mechanics <M extends Transport> {
 
 
     public void doMaintenance() {
+        System.out.println("Механик - " + this.getName() + " проводит техобслуживание автомобиля");
 
+    }
+
+    public void fixTransport() {
+        System.out.println("Механик - " + this.getName() + " чинит автомобиль");
     }
 
     public String getName() {
